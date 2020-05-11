@@ -1,0 +1,24 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#11ba6e",
+    "activityBar.activeBorder": "#9933ec",
+    "activityBar.background": "#11ba6e",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#9933ec",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#0d8b52",
+    "statusBar.border": "#0d8b52",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#11ba6e",
+    "titleBar.activeBackground": "#0d8b52",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.border": "#0d8b52",
+    "titleBar.inactiveBackground": "#0d8b5299",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#0d8b52",
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.enabled": true
+}
