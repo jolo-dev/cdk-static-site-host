@@ -6,6 +6,6 @@ from sweet_cookies.sweet_cookies_stack import SweetCookiesStack
 
 
 app = core.App()
-SweetCookiesStack(app, "sweet-cookies")
+SweetCookiesStack(app, "sweet-cookies", name="cookie-jar")
 
 app.synth()
