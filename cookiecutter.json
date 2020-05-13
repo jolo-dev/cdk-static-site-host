@@ -1,0 +1,13 @@
+{
+  "Are you Ready to bake some cookies? If yes, hit enter": " ",
+  "project_name": "Sweety Sweets",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "description": "Tasty Sweets",
+
+  "Do you have an own domain?": " ",
+  "domain": "n",
+
+  "Choose your sweets": " ",
+  "icing": ["Vue", "React"],
+  "dough": ["Flask", "Express"]
+}
