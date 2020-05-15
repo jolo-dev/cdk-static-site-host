@@ -9,5 +9,6 @@
 
   "Choose your sweets": " ",
   "icing": ["Vue", "React"],
+  "tailwind": "y",
   "dough": ["Flask", "Express"]
 }
