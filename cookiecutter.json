@@ -2,13 +2,12 @@
   "Are you Ready to bake some cookies? If yes, hit enter": " ",
   "project_name": "Sweety Sweets",
   "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "author": "John Doe",
   "description": "Tasty Sweets",
-
-  "Do you have an own domain?": " ",
   "domain": "n",
-
   "Choose your sweets": " ",
   "icing": ["Vue", "React"],
   "tailwind": "y",
-  "dough": ["Flask", "Express"]
+  "dough": ["Flask", "Express"],
+  "storage": ["DynamoDB", "Postgres"]
 }

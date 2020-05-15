@@ -6,7 +6,7 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="sweet_cookies",
+    name="cookie_jar",
     version="0.0.1",
 
     description="An empty CDK Python app",
@@ -15,11 +15,11 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "sweet_cookies"},
-    packages=setuptools.find_packages(where="sweet_cookies"),
+    package_dir={"": "cookie_jar"},
+    packages=setuptools.find_packages(where="cookie_jar"),
 
     install_requires=[
-        "aws-cdk.core==1.31.0",
+        "aws-cdk.core==1.38.0",
     ],
 
     python_requires=">=3.6",

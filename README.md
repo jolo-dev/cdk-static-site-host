@@ -1,58 +1,37 @@
+# Sweet Cookies
 
-# Welcome to your CDK Python project!
+This is a boilerplate for a full-stack application deployable on AWS by using [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html)
 
-This is a blank project for Python development with CDK.
+As ingredients, you are able to choose your
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+- favorite Javascript framework as your icing
+- your Flask as your dough
+- the storage to put the cookies
 
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the .env
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
+with just a few commands and less frictions.
+Mmmm....Yummi
 
-To manually create a virtualenv on MacOS and Linux:
+# Follow the recipe
 
-```
-$ python3 -m venv .env
-```
+It's time to swing your wooden spoon and install cookiecutter if not yet
 
-After the init process completes and the virtualenv is created, you can use the following
-step to activate your virtualenv.
-
-```
-$ source .env/bin/activate
+```bash
+python3 -m pip install cookiecutter
 ```
 
-If you are a Windows platform, you would activate the virtualenv like this:
+Get your ingredients
 
-```
-% .env\Scripts\activate.bat
-```
-
-Once the virtualenv is activated, you can install the required dependencies.
-
-```
-$ pip install -r requirements.txt
+```bash
+cookiecutter gh:https://github.com/jolo-dev/sweet-cookies
 ```
 
-At this point you can now synthesize the CloudFormation template for this code.
+Choose your ingredients and bake something nice!
 
+If it's ready to serve
+
+```bash
+chmod +x ./serve.sh
+./serve.sh
 ```
-$ cdk synth
-```
 
-To add additional dependencies, for example other CDK libraries, just add
-them to your `setup.py` file and rerun the `pip install -r requirements.txt`
-command.
-
-## Useful commands
-
- * `cdk ls`          list all stacks in the app
- * `cdk synth`       emits the synthesized CloudFormation template
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk docs`        open CDK documentation
-
-Enjoy!
+Watch it's baking and Enjoy!
