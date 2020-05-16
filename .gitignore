@@ -4,7 +4,11 @@ __pycache__
 .pytest_cache
 .env
 *.egg-info
+dist
 
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+# Generated output from cloud bakery
+sugar

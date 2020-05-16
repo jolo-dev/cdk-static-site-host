@@ -5,9 +5,10 @@
   "author": "John Doe",
   "description": "Tasty Sweets",
   "domain": "n",
-  "Choose your sweets": " ",
-  "icing": ["Vue", "React"],
+  "sugar": ["Vue", "React"],
+  "rest_client": ["axios", "node-fetch"],
   "tailwind": "y",
-  "dough": ["Flask", "Express"],
-  "storage": ["DynamoDB", "Postgres"]
+  "dough": ["Flask", "Single Lambdas"],
+  "storage": ["DynamoDB", "Postgres"],
+  "_copy_without_render": [".env"]
 }
