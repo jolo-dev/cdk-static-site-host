@@ -3,13 +3,13 @@
 This is a bakery shop where you can focus on your baking skills and produce tasty cookies
 and don't worry about deploying them to the cloud.
 
-Your equipment are **AmazonWebServices** (currently) and [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html)
+Your equipments are **AmazonWebServices** (currently) and [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/README.html)
 
 As ingredients, you are able to choose your
 
-- favorite Javascript framework _sugar_
-- as dough either Flask to make it quick or single Lambdas
-- the storage to put the cookies
+- favorite Javascript dough, Vue or React
+- as chocolate chips either Flask or single Lambdas to make it even tastier
+- either DynamoDB or a custom endpoint where the chocolate chips take their flavors
 
 with just a few commands and less frictions.
 Mmmm....Yummi
@@ -38,4 +38,4 @@ chmod +x ./bake.sh
 ```
 
 Let's show the world your delicious cookies!
-Watch it's baking and Enjoy!🍪
+Watch it's baking and Enjoy! 🍪

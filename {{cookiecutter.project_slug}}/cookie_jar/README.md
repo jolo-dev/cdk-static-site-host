@@ -1,7 +1,7 @@
 # The Cookie Jar
 
 The Cookie Jar is developed with [CDK](https://docs.aws.amazon.com/cdk/latest/guide/home.html).
-By default, there are no changes needed. If still changes wanted then, please read the documentation first in order to change anything. Below you find an excerpt of CDKs README.
+By default, there are no changes needed. If still changes needed, please read the documentation first in order to change anything. Below you find an excerpts of CDKs README.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

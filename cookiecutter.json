@@ -3,12 +3,10 @@
   "project_name": "Sweety Sweets",
   "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
   "author": "John Doe",
-  "description": "Tasty Sweets",
+  "description": "Cloud Bakery",
   "domain": "n",
-  "sugar": ["Vue", "React"],
-  "rest_client": ["axios", "node-fetch"],
-  "tailwind": "y",
-  "dough": ["Flask", "Single Lambdas"],
-  "storage": ["DynamoDB", "Postgres"],
+  "dough": ["Vue", "React", "Git Repository"],
+  "chocolate_chips": ["Flask", "Lambdas + Api Gateway", "No Endpoints"],
+  "storage": ["DynamoDB", "Postgres", "No Storage"],
   "_copy_without_render": [".env"]
 }
