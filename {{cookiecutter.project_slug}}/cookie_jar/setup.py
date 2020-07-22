@@ -8,14 +8,20 @@ with open("README.md") as fp:
 setuptools.setup(
     name="cookie_jar",
     version="0.0.1",
-    description="An empty CDK Python app",
+    description="Cookie Jar to store the static website",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="author",
     package_dir={"": "cookie_jar"},
     packages=setuptools.find_packages(where="cookie_jar"),
-    install_requires=["aws-cdk.core==1.39.0",],
-    python_requires=">=3.6",
+    install_requires=[
+        "aws-cdk.core==1.53.0",
+        "aws-cdk.aws-apigateway==1.53.0",
+        "aws-cdk.aws-lambda==1.53.0",
+        "aws-cdk.aws-s3==1.53.0",
+        "aws-cdk.aws-s3-deployment==1.53.0",
+    ],
+    python_requires=">=3.8",
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",

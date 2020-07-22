@@ -1,27 +1,7 @@
 {
   "python.formatting.provider": "black",
   "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "./{{cookiecutter.project_slug}}/.env/bin/pylint",
   "python.linting.enabled": true,
-  "python.venvPath": "./{{cookiecutter.project_slug}}/cookie_jar/.env",
-  "python.pythonPath": "./{{cookiecutter.project_slug}}/cookie_jar/.env/bin/python3",
-  "python.envFile": "${workspaceFolder}/{{cookiecutter.project_slug}}/cookie_jar/.env",
-  "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#fed479",
-    "activityBar.activeBorder": "#019e6d",
-    "activityBar.background": "#fed479",
-    "activityBar.foreground": "#15202b",
-    "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#019e6d",
-    "activityBarBadge.foreground": "#e7e7e7",
-    "statusBar.background": "#fec446",
-    "statusBar.border": "#fec446",
-    "statusBar.foreground": "#15202b",
-    "statusBarItem.hoverBackground": "#feb413",
-    "titleBar.activeBackground": "#fec446",
-    "titleBar.activeForeground": "#15202b",
-    "titleBar.border": "#fec446",
-    "titleBar.inactiveBackground": "#fec44699",
-    "titleBar.inactiveForeground": "#15202b99"
-  },
-  "peacock.color": "#fec446"
+  "python.pythonPath": "./{{cookiecutter.project_slug}}/.env/bin/python3"
 }

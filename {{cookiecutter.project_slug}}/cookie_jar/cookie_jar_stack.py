@@ -18,6 +18,8 @@ class CookieJarStack(core.Stack):
         s3deploy.BucketDeployment(
             self,
             "{{cookiecutter.project_name}}",
-            sources=[s3deploy.Source.asset("../sugar/dist")],
+            sources=[s3deploy.Source.asset("../dough/dist")],
             destination_bucket=cookie_jar,
+            retain_on_delete=False,
+            prune=false,
         )
